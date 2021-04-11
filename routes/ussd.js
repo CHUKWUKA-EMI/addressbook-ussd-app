@@ -50,6 +50,7 @@ router.post("/", async (req, res) => {
 			name: name,
 			phoneNumber: phone,
 			emailAddress: email,
+			userId: "USSD-ORIGIN",
 		};
 		const addressRef = firebase.database().ref("Address-Book");
 		const add = await addressRef.push(data);
