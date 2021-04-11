@@ -1,3 +1,3 @@
 # Contacts Address Book USSD Component
 
-> Use *384*185926# as the USSD service code
+> Use `*384*185926#` as the USSD service code
